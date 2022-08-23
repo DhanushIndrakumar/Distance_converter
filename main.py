@@ -1,7 +1,5 @@
 import tkinter as tk
 from tkinter import ttk
-# from PIL import Image, ImageTk
-
 
 def get_entry():
     selected = selected_conversion.get()
@@ -21,7 +19,6 @@ def get_entry():
     elif selected.lower() == "inch":
         output_value.set(f"the conversion: {value*39.37} feet")
     
-
 
 if __name__ == '__main__':
     root = tk.Tk()
